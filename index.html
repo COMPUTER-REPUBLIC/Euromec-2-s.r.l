@@ -8,15 +8,10 @@
 <body>
   <h1 style="text-align: center;">Informativa sulla Privacy</h1>
   <div class="pdf-container">
-    <embed src="Informativa Privacy PT1.pdf" type="application/pdf" width="50%" height="700px">
+    <embed src= "INFORMATIVA SUL TRATTAMENTO DEI DATI PERSONALI.pdf" type="application/pdf" width="50%" height="700px">
     <div class="checkbox-container">
       <input type="checkbox" id="privacy-checkbox-pt1" value="Ho preso visione e acconsento al trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679 (c.d. GDPR) e del D. Lgs. 30.06.2003, n. 196, così come modificato ed integrato dal D. Lgs. 10.08.2018, n. 101 (c.d. Codice Privacy).">
-      <label for="privacy-checkbox-pt1">Ho preso visione e acconsento al trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679 (c.d. GDPR) e del D. Lgs. 30.06.2003, n. 196, così come modificato ed integrato dal D. Lgs. 10.08.2018, n. 101 (c.d. Codice Privacy).</label><br>
-    </div>
-    <embed src="Informativa Privacy PT2.pdf" type="application/pdf" width="50%" height="700px">
-    <div class="checkbox-container">
-      <input type="checkbox" id="privacy-checkbox-pt2" value="Ho preso visione e acconsento al trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679 (c.d. GDPR) e del D. Lgs. 30.06.2003, n. 196, così come modificato ed integrato dal D. Lgs. 10.08.2018, n. 101 (c.d. Codice Privacy).">
-      <label for="privacy-checkbox-pt2">Ho preso visione e acconsento al trattamento dei dati personali ai sensi dell’art. 13 del Regolamento UE 2016/679 (c.d. GDPR) e del D. Lgs. 30.06.2003, n. 196, così come modificato ed integrato dal D. Lgs. 10.08.2018, n. 101 (c.d. Codice Privacy).</label><br>
+      <label for="privacy-checkbox-pt1">Acquisite le informazioni di cui all’art. 13 del Regolamento (UE) 2016/679 (General Data Protection Regulation o GDPR), autorizzo il Titolare al trattamento dei miei dati personali per le finalità e secondo le modalità e caratteristiche di cui alla suddetta informativa, ai sensi e ad ogni effetto di legge. </label><br>
     </div>
   </div>
   <div class="button-container">
@@ -24,7 +19,7 @@
   </div>
   <script>
     function confirmation() {
-      if (document.getElementById("privacy-checkbox-pt1").checked && document.getElementById("privacy-checkbox-pt2").checked) {
+      if (document.getElementById("privacy-checkbox-pt1").checked) {
         if (confirm("Sei sicuro di aver letto e compreso la nostra informativa sulla privacy?")) {
           window.open("https://inova.studioelpac.it/#/https://inova.studioelpac.it/#/");
         }
