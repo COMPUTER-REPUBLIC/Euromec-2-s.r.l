@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8f8f8;
+}
+body {
+  background-image: url("https://raw.githubusercontent.com/COMPUTER-REPUBLIC/COMPUTER-REPUBLIC/main/Screenshot%202024-04-08%20151906.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1 {
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px #000, -1px 1px #000, 1px -1px #000, -1px -1px #000;
+}
+.pdf-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+.button-container {
+  margin-top: 50px;
+  text-align: center;
+}
+.button-container label {
+  color: white;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+embed {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #080013;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1.2em;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: #000000;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #000000;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 100;
+}
+
+.back-to-top:hover {
+  background-color: #fcfcfc;
+}
+.checkbox-container label {
+  color: #FFFFFF;
+}
